@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Comic Ready da!</h2>
+<p>{{ story }}</p>
+{% for img in images %}
+<img src="{{ img }}" width="300" style="margin:10px"><br>
+{% endfor %}
+<br>
+<a href="/export/1"><button>Export PDF</button></a>
+<br><br>
+<a href="/">Back to Home</a>
+</body>
+</html>
